@@ -20,15 +20,16 @@ body {
   margin-left: 20px; /*Есть соображения, что надо сделать этой штуке паддинги, вместо марджинов во всем вложенном*/
   margin-top: 17px;
 }
-.complex-types__rectangle_name {
+.complex-types__rectangle-name {
   display: flex;
   font-size: 18px;
+  font-weight:500;
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
-.complex-types__rectangle_cost {
+.complex-types__rectangle-cost {
   display: flex;
   font-size: 18px;
   color: #a6191f;
@@ -36,12 +37,13 @@ body {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-.complex-types__rectangle_description {
+.complex-types__rectangle-description {
   display: flex;
   font-size: 12px;
   margin-bottom: 14px;
   margin-left: 15px;
 }
-.complex-types__rectangle_onlyname {
+.complex-types__rectangle-onlyname {
   margin: 34px 46px;
+  font-weight:500;
 }
