@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i&subset=cyrillic-ext');
+
+body{
+background-color: #ffffff;
+font-family:roboto;
+font: size 12px;;
+}
+.complex-types {
+display: flex;
+justify-content: center;
+}
+
+.complex-types__rectangle{
+  display:flex;
+  flex-wrap:wrap;
+  width: 220px;
+  height: 90px;
+  border: 2px solid  #A6191F;
+  border-radius:8px;
+  margin-left:20px;             /*Есть соображения, что надо сделать этой штуке паддинги, вместо марджинов во всем вложенном*/
+  margin-top:17px;
+
+}
+.complex-types__rectangle_name{
+  display:flex;
+  font-size:18px;
+  margin-left:20px;
+  margin-top:15px;
+  margin-bottom:5px;
+}
+
+.complex-types__rectangle_cost{
+  display:flex; 
+  font-size:18px;
+  color: #A6191F;
+  margin-left:61px;
+  margin-top:15px;
+  margin-bottom:5px;  
+}
+.complex-types__rectangle_description{
+  display:flex;
+  font-size:12px;
+margin-bottom:14px;
+margin-left:15px;
+}
+.complex-types__rectangle_onlyname{
+margin:34px 46px;
+}
