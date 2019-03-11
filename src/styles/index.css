@@ -8,6 +8,8 @@ body {
 
 .container{
     width:1180px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .complex-types {
   display: flex;
