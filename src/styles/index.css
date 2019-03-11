@@ -5,6 +5,10 @@ body {
   font-family: roboto;
   font: size 12px;
 }
+
+.container{
+    width:1180px;
+}
 .complex-types {
   display: flex;
   justify-content: center;
@@ -13,7 +17,8 @@ body {
 .complex-types__rectangle {
   display: flex;
   flex-wrap: wrap;
-  width: 220px;
+  min-width:220px;
+  max-width:0;
   height: 90px;
   border: 2px solid #a6191f;
   border-radius: 8px;
