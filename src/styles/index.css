@@ -59,66 +59,98 @@ opacity:1.0;
   margin: 34px 46px;
   font-weight:500;
 }
-.salads{
+.menu{
   width: 700px;
-height: 670px;
+height: 820 px;
 border: 2px solid #a6191f;
 border-radius:8px;
-margin-left:20px; 
+padding:0px 0px;
+margin:0px 0px;
 }
-.salads-item{
+.menu__item{
   display:flex;
   flex-wrap: wrap;
+  align-items:center; 
   width: 660px;
-  height: 80px; 
+  height: 100px;
+  padding:20px 20px;
 
 }
-.salads-item_name{
+.menu__item_name{
   font-size:16px;
-  width: 288px;
+  width: 406px;
   height: 19px;
-  padding: right 15px;
+  padding-bottom:7px;
+  padding-right:20px;
+  margin: 0px 0px;
 }
 
-.salads-item_lent{
+.menu__item_name_lent{
   font-size:12px;
   width: 50px;
   height: 15px;
   border: 1px solid #a6191f;
-  border-radius:2px;  
-  padding-left:15px;
+  border-radius:2px;
+  margin: 0px 0px;  
 }
 
-.salads-item_cost{
+.menu__item_cost{
+  color: #A6191F;
   width: 33px;
   height: 19px;
-  padding-left:60px;
+  padding-left: 55px;
+  padding-bottom:7px;
+  margin:0px 0px;
 }
 
-.salads-item_round{
-  width: 20px;
+.menu__item_cart{
+  width: 80px;
   height: 20px;
-  border: 1px solid #a6191f;
-border-radius:20px;
+  padding-left:20px;
+}
+.menu__item_cart_plus{
+  height:20px;
+  line-height: 8px;
+  width: 20px;
+  padding: 0px 0px;   
+  border: 2px solid #A6191F;
+  border-radius:20px; 
+  text-align:center;
 }
 
+.menu__item_cart_minus{
+  box-sizing:border-box;
+  height:20px;
+  line-height: 8px;
+  width: 20px;
+  padding: 0px 0px;
+  border: 2px solid #A6191F;
+  border-radius:20px; 
+  text-align:center;
+}
 
-.salads-item_line{
-  width: 80%; 
-  height: 4px; 
+.menu__item_line{
+  width: 500px; 
+  height: 2px; 
   background: #333; 
   border: 0; 
-  margin: 5px 0 5px 0; 
+  margin: 0px 0px;
+  padding: 0px 0px;
 }
-.salads-item_receipt{
-  padding-left:20px;
+.menu__item_receipt{
   font-size:12px; 
   width: 425px;
   height: 29px;
+  margin: 0px 0px;
+  padding-top:7px;
+  padding-right:10px;  
+
 }
 
-.salads-item_weight{
+.menu__item_weight{
   font-size:12px; 
   width: 29px;
   height: 15px;
+  margin: 0px 0px;
+  padding-left:50px;  
 }
