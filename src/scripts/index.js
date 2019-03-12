@@ -1,7 +1,9 @@
-var element = document.getElementsByClassName("complex-types__rectangle");
-function highliter(){
-  element.сlassList.add("complex-types__rectangle_selected");
-} 
-for (let i=0; i<=element.length-1; i++){
-element[i].addEventListener("click", highliter);
-} 
+var elements = document.getElementsByClassName('complex-types__rectangle');
+function highlight(element) {
+  element.classList.add('complex-types__rectangle_selected');
+}
+for (let i = 0; i < elements.length; i++) {
+  elements[i].addEventListener('click', function() {
+    highlight(elements[i]);
+  });
+}
