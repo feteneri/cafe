@@ -6,10 +6,10 @@ body {
   font: size 12px;
 }
 
-.container{
-    width:1180px;
-    margin-left:auto;
-    margin-right:auto;
+.container {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .complex-types {
   display: flex;
@@ -19,23 +19,23 @@ body {
 .complex-types__rectangle {
   display: flex;
   flex-wrap: wrap;
-  min-width:220px;
-  max-width:0;
+  min-width: 220px;
+  max-width: 0;
   height: 90px;
   border: 2px solid #a6191f;
   border-radius: 8px;
   margin-left: 20px; /*Есть соображения, что надо сделать этой штуке паддинги, вместо марджинов во всем вложенном*/
   margin-top: 17px;
-  opacity:0.2;
+  opacity: 0.2;
 }
 
 .complex-types__rectangle_selected {
-opacity:1.0;
+  opacity: 1;
 }
 .complex-types__rectangle-name {
   display: flex;
   font-size: 18px;
-  font-weight:500;
+  font-weight: 500;
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -57,101 +57,99 @@ opacity:1.0;
 }
 .complex-types__rectangle-onlyname {
   margin: 34px 46px;
-  font-weight:500;
+  font-weight: 500;
 }
-.menu{
+.menu {
   width: 700px;
-height: 820 px;
-border: 2px solid #a6191f;
-border-radius:8px;
-padding:0px 0px;
-margin:0px 20px;
+  height: 820 px;
+  border: 2px solid #a6191f;
+  border-radius: 8px;
+  padding: 0px 0px;
+  margin: 0px 20px;
 }
-.menu__item{
-  display:flex;
+.menu__item {
+  display: flex;
   flex-wrap: wrap;
-  align-content: flex-start ;
+  align-content: flex-start;
   justify-content: flex-start;
   width: 660px;
   height: 100px;
-  padding:20px 20px;
-
+  padding: 20px 20px;
 }
-.menu__item_name{
-  font-size:16px;
+.menu__item_name {
+  font-size: 16px;
   width: 406px;
   height: 19px;
-  padding-bottom:7px;
-  padding-right:20px;
+  padding-bottom: 7px;
+  padding-right: 20px;
   margin: 0px 0px;
 }
 
-.menu__item_name_lent{
-  font-size:12px;
+.menu__item_name_lent {
+  font-size: 12px;
   width: 50px;
   height: 15px;
   border: 1px solid #a6191f;
-  border-radius:2px;
-  margin: 0px 0px;  
+  border-radius: 2px;
+  margin: 0px 0px;
 }
 
-.menu__item_cost{
-  color: #A6191F;
+.menu__item_cost {
+  color: #a6191f;
   width: 33px;
   height: 19px;
   padding-left: 55px;
-  padding-bottom:7px;
-  margin:0px 0px;
+  padding-bottom: 7px;
+  margin: 0px 0px;
 }
 
-.menu__item_cart{
+.menu__item_cart {
   width: 60px;
   height: 20px;
-  padding-left:20px;
+  padding-left: 20px;
 }
-.menu__item_cart_plus{
-  height:20px;
-  line-height: 8px;
-  width: 20px;
-  padding: 0px 0px;   
-  border: 2px solid #A6191F;
-  border-radius:20px; 
-  text-align:center;
-}
-
-.menu__item_cart_minus{
-  box-sizing:border-box;
-  height:20px;
+.menu__item_cart_plus {
+  height: 20px;
   line-height: 8px;
   width: 20px;
   padding: 0px 0px;
-  border: 2px solid #A6191F;
-  border-radius:20px; 
-  text-align:center;
+  border: 2px solid #a6191f;
+  border-radius: 20px;
+  text-align: center;
 }
 
-.menu__item_line{
-  width: 570px; 
-  height: 0px; 
-  background: #333; 
-  border: 0.5px solid #9BA0A0; 
+.menu__item_cart_minus {
+  box-sizing: border-box;
+  height: 20px;
+  line-height: 8px;
+  width: 20px;
+  padding: 0px 0px;
+  border: 2px solid #a6191f;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.menu__item_line {
+  width: 570px;
+  height: 0px;
+  background: #333;
+  border: 0.5px solid #9ba0a0;
   margin: 0px 0px;
   padding: 0px 0px;
 }
-.menu__item_receipt{
-  font-size:12px; 
+.menu__item_receipt {
+  font-size: 12px;
   width: 425px;
   height: 29px;
   margin: 0px 0px;
-  padding-top:7px;
-  padding-right:10px;  
-
+  padding-top: 7px;
+  padding-right: 10px;
 }
 
-.menu__item_weight{
-  font-size:12px; 
+.menu__item_weight {
+  font-size: 12px;
   width: 29px;
   height: 15px;
   margin: 0px 0px;
-  padding-left:50px;  
+  padding-left: 50px;
 }

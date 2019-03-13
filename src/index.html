@@ -1,130 +1,144 @@
 <!DOCTYPE html>
-<html lang="ru"></html>
-<head>
-  <title>Менюшка</title>
-  <meta charset="utf-8" />
-  <meta description="Тут едят"/>
-  <link rel="stylesheet" href="styles/reset.css" />
-  <link rel="stylesheet" href="styles/index.css" />
-</head>
-<body>
-  <header></header>
-  <main>
-<div class=container>
-    <ul class=complex-types>
+<html lang="ru">
+  <head>
+    <title>Менюшка</title>
+    <meta charset="utf-8" />
+    <meta description="Тут едят" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <ul class="complex-types">
+          <li class="complex-types__rectangle">
+            <p class="complex-types__rectangle-name">2 блюда</p>
+            <p class="complex-types__rectangle-cost">129 ₽</p>
+            <p class="complex-types__rectangle-description">
+              Салат / суп, <br />самостоятельное блюдо
+            </p>
+          </li>
 
-      <li class=complex-types__rectangle>
-          <p class=complex-types__rectangle-name>2 блюда</p>
-          <p class=complex-types__rectangle-cost>129 ₽</p>
-          <p class=complex-types__rectangle-description>Салат / суп, <br>самостоятельное блюдо</p>
-      </li>
+          <li class="complex-types__rectangle">
+            <p class="complex-types__rectangle-name">3 блюда</p>
+            <p class="complex-types__rectangle-cost">135 ₽</p>
+            <p class="complex-types__rectangle-description">
+              Салат / суп, <br />второе блюдо, гарнир
+            </p>
+          </li>
 
-      <li class=complex-types__rectangle>
-          <p class=complex-types__rectangle-name>3 блюда</p>
-          <p class=complex-types__rectangle-cost>135 ₽</p>
-          <p class=complex-types__rectangle-description>Салат / суп, <br>второе блюдо, гарнир</p>
-      </li>
+          <li class="complex-types__rectangle">
+            <p class="complex-types__rectangle-name">3 блюда</p>
+            <p class="complex-types__rectangle-cost">139 ₽</p>
+            <p class="complex-types__rectangle-description">
+              Салат + суп / 2 салата / 2 супа,<br />самостоятельное блюдо
+            </p>
+          </li>
 
-      <li class=complex-types__rectangle>
-          <p class=complex-types__rectangle-name>3 блюда</p>
-          <p class=complex-types__rectangle-cost>139 ₽</p>
-          <p class=complex-types__rectangle-description>Салат + суп / 2 салата / 2 супа,<br>самостоятельное блюдо</p>
-      </li>
+          <li class="complex-types__rectangle">
+            <p class="complex-types__rectangle-name">4 блюда</p>
+            <p class="complex-types__rectangle-cost">149 ₽</p>
+            <p class="complex-types__rectangle-description">
+              Салат + суп/ 2 салата/ 2 супа, <br />второе блюдо, гарнир
+            </p>
+          </li>
 
-      <li class=complex-types__rectangle>
-          <p class=complex-types__rectangle-name>4 блюда</p>
-          <p class=complex-types__rectangle-cost>149 ₽</p>
-          <p class=complex-types__rectangle-description>Салат + суп/ 2 салата/ 2 супа, <br>второе блюдо, гарнир</p>
-      </li>
+          <li class="complex-types__rectangle">
+            <p class="complex-types__rectangle-onlyname">Без комплекса</p>
+          </li>
+        </ul>
 
-      <li class=complex-types__rectangle>
-          <p class=complex-types__rectangle-onlyname>Без комплекса</p>
-      </li>
-    </ul>
+        <ul class="menu">
+          <li class="menu__item">
+            <p class="menu__item_name">
+              Салат из свежей капусты с брусникой <span class="menu__item_name_lent"> постное</span>
+            </p>
+            <p class="menu__item_cost">39 ₽</p>
+            <p class="menu__item_line"></p>
+            <div class="menu__item_cart">
+              <button class="menu__item_cart_plus">+</button>
+              <span class="menu__item_cart_quantity">0</span>
+              <button class="menu__item_cart_minus">-</button>
+            </div>
+            <p class="menu__item_receipt">
+              Капуста белокачанная, брусника, масляно-уксусная заправка
+            </p>
+            <p class="menu__item_weight">100 г</p>
+          </li>
 
-    <ul class=menu>
-      <li class=menu__item>
-        <p class=menu__item_name>Салат из свежей капусты с брусникой <span class=menu__item_name_lent> постное<span></p>
-        <p class=menu__item_cost>39 ₽</p>
-        <p class=menu__item_line></p>
-        <div class=menu__item_cart>
-          <button class=menu__item_cart_plus>+</button>
-          <span class=menu__item_cart_quantity>0</span>
-          <button class=menu__item_cart_minus>–</button>
-        </div>
-        <p class=menu__item_receipt>Капуста белокачанная, брусника, масляно-уксусная заправка</p>
-        <p class=menu__item_weight>100 г </p>
-      </li>
+          <li class="menu__item">
+            <p class="menu__item_name">Салат "Мясной" с говядиной</p>
+            <p class="menu__item_cost">59 ₽</p>
+            <p class="menu__item_line"></p>
+            <div class="menu__item_cart">
+              <button class="menu__item_cart_plus">+</button>
+              <span class="menu__item_cart_quantity">0</span>
+              <button class="menu__item_cart_minus">-</button>
+            </div>
+            <p class="menu__item_receipt">
+              Говядина, картофель, морковь, огурец консервированный, <br />зеленый горошек, яйцо,
+              майонез
+            </p>
+            <p class="menu__item_weight">100 г</p>
+          </li>
 
-      <li class=menu__item>
-        <p class=menu__item_name>Салат "Мясной" с говядиной</p>
-        <p class=menu__item_cost>59 ₽</p>
-        <p class=menu__item_line></p>
-        <div class=menu__item_cart>
-            <button class=menu__item_cart_plus>+</button>
-            <span class=menu__item_cart_quantity>0</span>
-            <button class=menu__item_cart_minus>+</button>
-          </div>
-        <p class=menu__item_receipt>Говядина, картофель, морковь, огурец консервированный, <br>зеленый горошек, яйцо, майонез</p>
-        <p class=menu__item_weight>100 г </p>
-      </li>
+          <li class="menu__item">
+            <p class="menu__item_name">Салат с запеченной курицей и грибами</p>
+            <p class="menu__item_cost">59 ₽</p>
+            <p class="menu__item_line"></p>
+            <div class="menu__item_cart">
+              <button class="menu__item_cart_plus">+</button>
+              <span class="menu__item_cart_quantity">0</span>
+              <button class="menu__item_cart_minus">-</button>
+            </div>
+            <p class="menu__item_receipt">Кура запеченная, блины, огурец свежий, чеснок, майонез</p>
+            <p class="menu__item_weight">100 г</p>
+          </li>
 
-      <li class=menu__item>
-        <p class=menu__item_name>Салат с запеченной курицей и грибами</p>
-        <p class=menu__item_cost>59 ₽</p>
-        <p class=menu__item_line></p>
-        <div class=menu__item_cart>
-            <button class=menu__item_cart_plus>+</button>
-            <span class=menu__item_cart_quantity>0</span>
-            <button class=menu__item_cart_minus>-</button>
-        </div>
-        <p class=menu__item_receipt>Кура запеченная, блины, огурец свежий, чеснок, майонез</p>
-        <p class=menu__item_weight>100 г </p>
-      </li>
+          <li class="menu__item">
+            <p class="menu__item_name">Салат с морской капустой и яйцом</p>
+            <p class="menu__item_cost">49 ₽</p>
+            <p class="menu__item_line"></p>
+            <div class="menu__item_cart">
+              <button class="menu__item_cart_plus">+</button>
+              <span class="menu__item_cart_quantity">0</span>
+              <button class="menu__item_cart_minus">-</button>
+            </div>
+            <p class="menu__item_receipt">Морская капуста, яйцо майонез</p>
+            <p class="menu__item_weight">100 г</p>
+          </li>
 
-      <li class=menu__item>
-        <p class=menu__item_name>Салат с морской капустой и яйцом</p>
-        <p class=menu__item_cost>49 ₽</p>
-        <p class=menu__item_line></p>
-        <div class=menu__item_cart>
-            <button class=menu__item_cart_plus>+</button>
-            <span class=menu__item_cart_quantity>0</span>
-            <button class=menu__item_cart_minus>-</button>
-        </div>
-        <p class=menu__item_receipt>Морская капуста, яйцо майонез</p>
-        <p class=menu__item_weight>100 г </p>
-      </li>
+          <li class="menu__item">
+            <p class="menu__item_name">Салат с печеной свеклой, сыром фета и соусом песто</p>
+            <p class="menu__item_cost">49 ₽</p>
+            <p class="menu__item_line"></p>
+            <div class="menu__item_cart">
+              <button class="menu__item_cart_plus">+</button>
+              <span class="menu__item_cart_quantity">0</span>
+              <button class="menu__item_cart_minus">-</button>
+            </div>
+            <p class="menu__item_receipt">Сыр фета, печеная свекла, соус песто</p>
+            <p class="menu__item_weight">100 г</p>
+          </li>
 
-      <li class=menu__item>
-        <p class=menu__item_name>Салат с печеной свеклой, сыром фета и соусом песто</p>
-        <p class=menu__item_cost>49 ₽</p>
-        <p class=menu__item_line></p>
-        <div class=menu__item_cart>
-            <button class=menu__item_cart_plus>+</button>
-            <span class=menu__item_cart_quantity>0</span>
-            <button class=menu__item_cart_minus>-</button>
+          <li class="menu__item">
+            <p class="menu__item_name">Сельдь под шубой</p>
+            <p class="menu__item_cost">49 ₽</p>
+            <p class="menu__item_line"></p>
+            <div class="menu__item_cart">
+              <button class="menu__item_cart_plus">+</button>
+              <span class="menu__item_cart_quantity">0</span>
+              <button class="menu__item_cart_minus">-</button>
+            </div>
+            <p class="menu__item_receipt">
+              Сельдь слабосоленая, картофель, морковь, свекла, майонез, лук репчатый
+            </p>
+            <p class="menu__item_weight">120 г</p>
+          </li>
+        </ul>
       </div>
-        <p class=menu__item_receipt>Сыр фета, печеная свекла, соус песто</p>
-        <p class=menu__item_weight>100 г </p>
-      </li>
-
-      <li class=menu__item>
-        <p class=menu__item_name>Сельдь под шубой</p>
-        <p class=menu__item_cost>49 ₽</p>
-        <p class=menu__item_line></p>
-        <div class=menu__item_cart>
-            <button class=menu__item_cart_plus>+</button>
-            <span class=menu__item_cart_quantity>0</span>
-            <button class=menu__item_cart_minus>-</button>
-        </div>
-        <p class=menu__item_receipt>Сельдь слабосоленая, картофель, морковь, свекла, майонез, лук репчатый</p>
-        <p class=menu__item_weight>120 г </p>
-      </li>
-
-      </ul>
-
-    </div>
-  </main>
-</body>
-<script src="scripts/index.js"></script>
+    </main>
+  </body>
+  <script src="scripts/index.js"></script>
 </html>
