@@ -1,5 +1,5 @@
 var elements = document.getElementsByClassName('complex-types__rectangle');
-function highlight(element) {
+function clicker(element) {
   for (let i = 0; i < elements.length; i++)  {
     elements[i].classList.remove('complex-types__rectangle_selected');
   }
@@ -7,6 +7,6 @@ function highlight(element) {
 }
 for (let i = 0; i < elements.length; i++) {
   elements[i].addEventListener('click', function() {
-    highlight(elements[i]);
+    clicker(elements[i]);
   });
 }
